@@ -4,7 +4,8 @@ Pila LIFO (Last In First Out)
 """
 
 class Pila:
-
+    """ Implementation of a stack data structure."""
+    
     def __init__(self) -> None:
         """ Initializes an empty stack."""
         self.items: list[any] = []

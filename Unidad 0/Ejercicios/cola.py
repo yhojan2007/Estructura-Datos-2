@@ -4,7 +4,8 @@ Cola FIFO (First In First Out)
 """
 
 class Cola:
-
+    """ Implementation of a queue data structure."""
+    
     def __init__(self) -> None:
         """ Initializes an empty queue."""
         self.items: list[any] = []
