@@ -199,7 +199,7 @@ if __name__ == "__main__":
     print(f"¿Existe el número 40? {mi_arbol.buscar(40)}")  # True
     print(f"¿Existe el número 99? {mi_arbol.buscar(99)}")  # False
 
-    # 4. Altura y Nivel
+    # 4. Altura
     print("\n--- Altura ---")
     print(f"La altura total del árbol es: {mi_arbol.obtener_altura()}")
     
