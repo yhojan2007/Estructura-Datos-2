@@ -1,4 +1,4 @@
-# ejemplos/02_abb_completo.py
+# =====================================================================
 # Unidad I: Árbol Binario de Búsqueda (ABB) - Implementación Completa
 # =====================================================================
 
@@ -11,6 +11,7 @@ class Nodo:
         self.derecho = None
     
     def __repr__(self):
+        """Representación en cadena del nodo."""
         return f"Nodo({self.dato})"
 
 
